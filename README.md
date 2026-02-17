@@ -9,3 +9,6 @@ This bookmarklet allows you to see the exact listing date of any Facebook Market
 2. Right-click your Browser Bookmarks Bar and select Add Page.
 3. Name it Check FB Date.
 4. Paste the code into the URL field and save.
+
+### How to Use:
+Open any Facebook Marketplace listing and click the bookmark!
