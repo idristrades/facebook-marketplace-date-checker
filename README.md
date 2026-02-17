@@ -6,3 +6,6 @@ This bookmarklet allows you to see the exact listing date of any Facebook Market
 1. Copy the code below:
    ```javascript
    javascript:(function(){const html=document.documentElement.innerHTML;const match=html.match(/"creation_time":(\d+)/);if(match&&match[1]){const date=new Date(match[1]*1000);const options={year:'numeric',month:'long',day:'numeric',hour:'numeric',minute:'numeric'};alert("Listed on: "+date.toLocaleDateString('en-US',options));}else{alert("Date not found. Make sure you are on a specific listing page.");}})();
+2. Right-click your Browser Bookmarks Bar and select Add Page.
+3. Name it Check FB Date.
+4. Paste the code into the URL field and save.
